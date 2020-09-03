@@ -13,9 +13,6 @@
   width: 100%;
 }
 
-.wrapper {
-}
-
 .navstyling .img-container{
   width: 100% !important;
   padding: 20px !important;
@@ -89,7 +86,7 @@
 }
 
 @media (max-width : 900px) {
-  .navstyling {
+  #sidebar .navstyling {
   margin-top: 0rem !important;
   position: static !important;
   }
@@ -247,8 +244,6 @@ h4, p {
   margin-bottom: 5rem !important;
 }
 
-.experience ul {
-}
 
 .experience ul li{
   color: rgb(167, 162, 162) !important;
