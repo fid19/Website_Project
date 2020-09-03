@@ -60,6 +60,31 @@
   }
 }
 
+@media (min-height: 500px) and (max-width : 900px) {
+  .navstyling {
+  margin-top: 0rem !important;
+  position: fixed !important;
+  }
+  
+  #sidebar ul li {
+    padding: 2px !important;
+  }
+  
+
+  .img-container img{
+    width: 100px;
+    height: auto; 
+    border-radius: 50%;
+    border: 8px rgb(228, 130, 91) solid !important;
+  }
+
+  .container-one {
+    padding: 2rem 0rem !important;
+    padding-left: 2rem !important;
+    padding-right: 4rem !important;
+  }
+}
+
 @media (max-width : 900px) {
   #sidebar .navstyling {
   margin-top: 0rem !important;
