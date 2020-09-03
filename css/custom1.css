@@ -88,7 +88,7 @@
 @media (max-width : 900px) {
   #sidebar .navstyling {
   margin-top: 0rem !important;
-  position: fixed !important;
+  position: static !important;
   }
   
   #sidebar ul li {
