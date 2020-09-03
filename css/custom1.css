@@ -44,15 +44,42 @@ h2 {
 
 @media only screen and (max-width : 600px) {
   .navstyling {
-  position: static !important;
-  margin-top: 0 !important;
+  display: none;
+  }
+
+  .nav-color {
+    background-color: rgb(161, 63, 24) !important;
+  }
+
+  .img-container {
+    width: 8em !important;
+    margin: auto !important;
   }
 
   .img-container img{
-    width: 6.25em;
+    width: 100%;
     height: auto; 
     border-radius: 50%;
     border: 8px rgb(228, 130, 91) solid !important;
+  }
+
+  .navbar {
+    padding: 0.5rem 1.5rem !important;
+  }
+
+  .navbar .nav-item .nav-link {
+    padding: 0.8rem 1.3rem !important;
+  }
+
+  .navbar .navbar-brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: rgba(226, 122, 74, 0.965) !important;
+  }
+
+  .navbar .nav-item .nav-link:hover,
+  .navbar .nav-item .nav-link:focus {
+    color:#fff;
+    background-color: rgba(78, 37, 17, 0.965) !important;
   }
 
   .get-rounded .rounded{
@@ -69,7 +96,8 @@ h2 {
   }
 
   .container-one {
-    padding: 2.5rem 0rem !important;
+    padding-bottom: 2.5rem !important;
+    padding-top: 5rem !important;
     padding-left: 2rem !important;
     padding-right: 2rem !important;
     text-align: center !important;
@@ -139,6 +167,15 @@ h2 {
 }
 
 @media only screen and (max-width : 767px) and (min-width : 601px) {
+
+  #nav-show {
+    display: none !important;
+  }
+
+  .img-show {
+    display: none !important;
+  }
+
   .navstyling {
   margin-top: 0rem !important;
   position: fixed !important;
@@ -237,12 +274,35 @@ h2 {
     padding: 0.2rem !important;
     text-align: left;
   }
+
+  ul {
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  ul li {
+    padding: 10px !important;
+  }
+  
+  ul li a {
+    color: rgb(228, 130, 91) !important;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width : 992px){
   .navstyling {
   margin-top: 5rem !important;
   position: fixed !important;
+  }
+
+  #nav-show {
+    display: none !important;
+  }
+
+  .img-show {
+    display: none !important;
   }
 
   .img-bkg {
@@ -313,12 +373,35 @@ h2 {
     padding: 0.2rem !important;
     text-align: left;
   }
+
+  ul {
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  ul li {
+    padding: 10px !important;
+  }
+  
+  ul li a {
+    color: rgb(228, 130, 91) !important;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 993px) and (max-width : 1200px) {
   .navstyling {
   margin-top: 5rem !important;
   position: fixed !important;
+  }
+
+  #nav-show {
+    display: none !important;
+  }
+
+  .img-show {
+    display: none !important;
   }
 
   .container-one {
@@ -381,6 +464,21 @@ h2 {
     padding: 0.2rem !important;
     text-align: left;
   }
+
+  ul {
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  ul li {
+    padding: 10px !important;
+  }
+  
+  ul li a {
+    color: rgb(228, 130, 91) !important;
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 1201px) {
@@ -389,6 +487,13 @@ h2 {
   position: fixed !important;
   }
 
+  #nav-show {
+    display: none !important;
+  }
+
+  .img-show {
+    display: none !important;
+  }
   .img-bkg {
     background: url(../images/slider-bg.jpg) no-repeat center center/cover;
   }
@@ -449,23 +554,25 @@ h2 {
     padding: 0.2rem !important;
     text-align: left;
   }
+
+  ul {
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  ul li {
+    padding: 10px !important;
+  }
+  
+  ul li a {
+    color: rgb(228, 130, 91) !important;
+    font-size: 20px;
+  }
 }
 
 
-ul {
-  text-align: center;
-  display: inline-block;
-  overflow: hidden;
-}
 
-ul li {
-  padding: 10px !important;
-}
-
-ul li a {
-  color: rgb(228, 130, 91) !important;
-  font-size: 20px;
-}
 
 .container-one h2{
   font-size: 3.5rem !important;
