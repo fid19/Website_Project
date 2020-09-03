@@ -30,11 +30,390 @@ h4, p {
   padding-right: 5rem !important;
 }
 
-@media (min-width: 1150px) {
+.exp-color {
+  display: flex;
+  justify-content: end;
+  color: rgb(163, 60, 60);
+}
+
+
+
+h2 {
+  color: rgb(63, 62, 62) !important;
+}
+
+@media only screen and (max-width : 600px) {
+  .navstyling {
+  position: static !important;
+  margin-top: 0 !important;
+  }
+
+  .img-container img{
+    width: 6.25em;
+    height: auto; 
+    border-radius: 50%;
+    border: 8px rgb(228, 130, 91) solid !important;
+  }
+
+  .get-rounded .rounded{
+    height: 40px !important;
+    width: 40px !important;
+    background-color: gray;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    margin-right: 1.5rem !important;
+  }
+
+  .img-bkg {
+    background: url(../images/slider-bg.jpg) no-repeat center center/cover;
+  }
+
+  .container-one {
+    padding: 2.5rem 0rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    text-align: center !important;
+    background-color: rgba(0, 0, 0, 0.524);
+  }
+
+  .container-one p {
+    text-align: justify;
+  }
+
+  .container-one h6 {
+    padding-top: 1rem !important;
+  }
+
+  .container-2 {
+    padding: 4rem 0rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    background-color: rgba(255, 235, 205, 0.36);
+  }
+  
+  .container-2 h1{
+    color: rgb(153, 93, 93);
+    margin-bottom: 5rem !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem 0rem !important;
+  }
+
+  .experience {
+    margin-bottom: 5rem !important;
+  }
+
+  .experience h2{
+    color: rgb(110, 87, 87) !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .container-3 {
+    padding: 4rem 0rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    background-color: rgba(161, 63, 24, 0.101) !important;
+  }
+  
+  .container-3 h1{
+    color: rgb(153, 93, 93);
+    margin-bottom: 5rem !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem 0rem !important;
+  }
+
+  .experience ul li{
+    color: rgb(167, 162, 162) !important;
+    font-size: 0.9rem;
+    padding: 0.2rem !important;
+    text-align: left;
+  }
+
+  .margin {
+    padding: 0rem 1rem !important;
+  }
+
+  .margin p{
+    padding: 0rem 1rem !important;
+    text-align: justify !important;
+  }
+}
+
+@media only screen and (max-width : 767px) and (min-width : 601px) {
+  .navstyling {
+  margin-top: 0rem !important;
+  position: fixed !important;
+  }
+
+  .img-bkg {
+    background: url(../images/slider-bg.jpg) no-repeat center center/cover;
+  }
+  
+  #sidebar ul li {
+    padding: 0.1rem !important;
+    margin-left: 10% !important;
+  }
+
+  #sidebar ul li:hover{
+    background-color: rgba(76, 27, 8, 0.346) !important;
+    border-radius: 0.5rem;
+  }
+  #sidebar ul li a:hover{
+    color: rgb(233, 233, 233) !important;
+  }
+
+  .get-rounded {
+    text-align: center !important;
+  }
+
+  .get-rounded .rounded{
+    height: 50px !important;
+    width: 50px !important;
+    background-color: gray;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    margin-right: 1.5rem !important;
+  }
+  
+
+  .img-container img{
+    width: 6.25em;
+    height: auto;
+    border-radius: 50%;
+    border: 8px rgb(228, 130, 91) solid !important;
+  }
+
+  .container-one {
+    padding: 2rem 0rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.524);
+  }
+
+  .container-one p{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    text-align: justify;
+  }
+
+  .margin {
+    padding: 0rem 1rem !important;
+  }
+
+  .margin p{
+    padding: 0rem 1rem !important;
+    text-align: justify !important;
+  }
+
+  .container-2 {
+    padding: 2.5rem 0rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .container-2 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .container-3 {
+    padding: 10rem 0rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .container-3 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .experience {
+    margin-bottom: 2rem !important;
+  }
+
+  .experience ul li{
+    color: rgb(167, 162, 162) !important;
+    font-size: 0.9rem;
+    padding: 0.2rem !important;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width : 992px){
   .navstyling {
   margin-top: 5rem !important;
   position: fixed !important;
   }
+
+  .img-bkg {
+    background: url(../images/slider-bg.jpg) no-repeat center center/cover;
+  }
+
+  .img-container img{
+    width: 100px;
+    height: auto; 
+    border-radius: 50%;
+    border: 8px rgb(228, 130, 91) solid !important;
+  }
+
+  .margin {
+    padding: 0rem 1rem !important;
+  }
+
+  .margin p{
+    padding: 0rem 1rem !important;
+    text-align: justify !important;
+  }
+
+  .container-one {
+    padding: 10rem 0rem !important;
+    padding-left: 2rem !important;
+    padding-right: 4rem !important;
+    background-color: rgba(0, 0, 0, 0.524);
+  }
+
+  .get-rounded .rounded{
+    height: 50px !important;
+    width: 50px !important;
+    background-color: gray;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    margin-right: 1.5rem !important;
+  }
+
+  .container-2 {
+    padding: 5rem 0rem !important;
+    padding-left: 3rem !important;
+    padding-right: 5rem !important;
+  }
+  
+  .container-2 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .container-3 {
+    padding: 10rem 0rem !important;
+    padding-left: 3rem !important;
+    padding-right: 5rem !important;
+  }
+  
+  .container-3 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .experience {
+    margin-bottom: 2rem !important;
+  }
+
+  .experience ul li{
+    color: rgb(167, 162, 162) !important;
+    font-size: 0.9rem;
+    padding: 0.2rem !important;
+    text-align: left;
+  }
+}
+
+<<<<<<< HEAD
+@media (min-height: 500px) and (max-width : 900px) {
+=======
+@media only screen and (min-width: 993px) and (max-width : 1200px) {
+>>>>>>> test-branch
+  .navstyling {
+  margin-top: 5rem !important;
+  position: fixed !important;
+  }
+
+  .container-one {
+    padding: 10rem 0rem !important;
+    padding-left: 2rem !important;
+    padding-right: 4rem !important;
+    background-color: rgba(0, 0, 0, 0.524);
+  }
+
+  .img-bkg {
+    background: url(../images/slider-bg.jpg) no-repeat center center/cover;
+  }
+
+
+  .img-container img{
+    width: 9em;
+    height: auto; 
+    border-radius: 50%;
+    border: 8px rgb(228, 130, 91) solid !important;
+  }
+
+  .get-rounded .rounded{
+    height: 50px !important;
+    width: 50px !important;
+    background-color: gray;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    margin-right: 1.5rem !important;
+  }
+
+  .container-2 {
+    padding: 5rem 0rem !important;
+<<<<<<< HEAD
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+=======
+    padding-left: 3rem !important;
+    padding-right: 5rem !important;
+>>>>>>> test-branch
+  }
+  
+  .container-2 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .container-3 {
+    padding: 10rem 0rem !important;
+<<<<<<< HEAD
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+=======
+    padding-left: 3rem !important;
+    padding-right: 5rem !important;
+>>>>>>> test-branch
+  }
+  
+  .container-3 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .experience {
+    margin-bottom: 2rem !important;
+  }
+
+  .experience ul li{
+    color: rgb(167, 162, 162) !important;
+    font-size: 0.9rem;
+    padding: 0.2rem !important;
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .navstyling {
+  margin-top: 5rem !important;
+  position: fixed !important;
+  }
+
+  .img-bkg {
+    background: url(../images/slider-bg.jpg) no-repeat center center/cover;
+  }
+
+  .container-one {
+    padding: 10rem 0rem !important;
+    padding-left: 2rem !important;
+    padding-right: 4rem !important;
+    background-color: rgba(0, 0, 0, 0.524);
+  }
+
 
   .img-container img{
     width: 170px;
@@ -43,10 +422,24 @@ h4, p {
     border: 8px rgb(228, 130, 91) solid !important;
   }
 
+  .get-rounded .rounded{
+    height: 50px !important;
+    width: 50px !important;
+    background-color: gray;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    margin-right: 1.5rem !important;
+  }
+
   .container-2 {
     padding: 5rem 0rem !important;
+<<<<<<< HEAD
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+=======
     padding-left: 3rem !important;
     padding-right: 5rem !important;
+>>>>>>> test-branch
   }
   
   .container-2 h1{
@@ -56,143 +449,29 @@ h4, p {
 
   .container-3 {
     padding: 10rem 0rem !important;
+<<<<<<< HEAD
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+=======
     padding-left: 3rem !important;
     padding-right: 5rem !important;
+>>>>>>> test-branch
   }
   
   .container-3 h1{
     color: rgb(63, 62, 62);
     margin-bottom: 5rem !important;
   }
-}
 
-@media (max-width : 1149px){
-  .navstyling {
-  margin-top: 5rem !important;
-  position: fixed !important;
+  .experience {
+    margin-bottom: 2rem !important;
   }
 
-  .img-container img{
-    width: 100px;
-    height: auto; 
-    border-radius: 50%;
-    border: 8px rgb(228, 130, 91) solid !important;
-  }
-
-  .container-one {
-    padding: 10rem 0rem !important;
-    padding-left: 2rem !important;
-    padding-right: 4rem !important;
-  }
-
-  .container-2 {
-    padding: 5rem 0rem !important;
-    padding-left: 3rem !important;
-    padding-right: 5rem !important;
-  }
-  
-  .container-2 h1{
-    color: rgb(63, 62, 62);
-    margin-bottom: 5rem !important;
-  }
-
-  .container-3 {
-    padding: 10rem 0rem !important;
-    padding-left: 3rem !important;
-    padding-right: 5rem !important;
-  }
-  
-  .container-3 h1{
-    color: rgb(63, 62, 62);
-    margin-bottom: 5rem !important;
-  }
-}
-
-@media (min-height: 500px) and (max-width : 900px) {
-  .navstyling {
-  margin-top: 0rem !important;
-  position: fixed !important;
-  }
-  
-  #sidebar ul li {
-    padding: 2px !important;
-  }
-  
-
-  .img-container img{
-    width: 100px;
-    height: auto; 
-    border-radius: 50%;
-    border: 8px rgb(228, 130, 91) solid !important;
-  }
-
-  .container-one {
-    padding: 2rem 0rem !important;
-    padding-left: 2rem !important;
-    padding-right: 4rem !important;
-  }
-
-  .container-2 {
-    padding: 5rem 0rem !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-  
-  .container-2 h1{
-    color: rgb(63, 62, 62);
-    margin-bottom: 5rem !important;
-  }
-
-  .container-3 {
-    padding: 10rem 0rem !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-  
-  .container-3 h1{
-    color: rgb(63, 62, 62);
-    margin-bottom: 5rem !important;
-  }
-}
-
-@media (max-width : 575px) {
-  .navstyling {
-  position: static !important;
-  }
-
-  .img-container img{
-    width: 100px;
-    height: auto; 
-    border-radius: 50%;
-    border: 8px rgb(228, 130, 91) solid !important;
-  }
-
-  .container-one {
-    padding: 10rem 0rem !important;
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
-  }
-
-  .container-2 {
-    padding: 5rem 0rem !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-  
-  .container-2 h1{
-    color: rgb(63, 62, 62);
-    margin-bottom: 5rem !important;
-  }
-
-  .container-3 {
-    padding: 10rem 0rem !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-  
-  .container-3 h1{
-    color: rgb(63, 62, 62);
-    margin-bottom: 5rem !important;
+  .experience ul li{
+    color: rgb(167, 162, 162) !important;
+    font-size: 0.9rem;
+    padding: 0.2rem !important;
+    text-align: left;
   }
 }
 
@@ -233,32 +512,3 @@ ul li a {
 
 
 
-.get-rounded .rounded{
-  height: 50px !important;
-  width: 50px !important;
-  background-color: gray;
-  border-radius: 50% !important;
-  display: inline-block !important;
-  margin-right: 1.5rem !important;
-}
-
-.exp-color {
-  display: flex;
-  justify-content: end;
-  color: rgb(163, 60, 60);
-}
-
-.experience {
-  margin-bottom: 2rem !important;
-}
-
-h2 {
-  color: rgb(63, 62, 62) !important;
-}
-
-.experience ul li{
-  color: rgb(167, 162, 162) !important;
-  font-size: 0.9rem;
-  padding: 0.2rem !important;
-  text-align: left;
-}
