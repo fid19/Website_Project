@@ -13,7 +13,8 @@
   width: 100%;
 }
 
-.wrapper {
+h4, p {
+  color: rgb(167, 162, 162) !important;
 }
 
 .navstyling .img-container{
@@ -41,6 +42,28 @@
     border-radius: 50%;
     border: 8px rgb(228, 130, 91) solid !important;
   }
+
+  .container-2 {
+    padding: 5rem 0rem !important;
+    padding-left: 3rem !important;
+    padding-right: 5rem !important;
+  }
+  
+  .container-2 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .container-3 {
+    padding: 10rem 0rem !important;
+    padding-left: 3rem !important;
+    padding-right: 5rem !important;
+  }
+  
+  .container-3 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
 }
 
 @media (max-width : 1149px){
@@ -60,6 +83,28 @@
     padding: 10rem 0rem !important;
     padding-left: 2rem !important;
     padding-right: 4rem !important;
+  }
+
+  .container-2 {
+    padding: 5rem 0rem !important;
+    padding-left: 3rem !important;
+    padding-right: 5rem !important;
+  }
+  
+  .container-2 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .container-3 {
+    padding: 10rem 0rem !important;
+    padding-left: 3rem !important;
+    padding-right: 5rem !important;
+  }
+  
+  .container-3 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
   }
 }
 
@@ -86,10 +131,32 @@
     padding-left: 2rem !important;
     padding-right: 4rem !important;
   }
+
+  .container-2 {
+    padding: 5rem 0rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .container-2 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .container-3 {
+    padding: 10rem 0rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .container-3 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
 }
+
 @media (max-width : 575px) {
   .navstyling {
-  margin-top: 0rem !important;  
   position: static !important;
   }
 
@@ -104,6 +171,28 @@
     padding: 10rem 0rem !important;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
+  }
+
+  .container-2 {
+    padding: 5rem 0rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .container-2 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
+  }
+
+  .container-3 {
+    padding: 10rem 0rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .container-3 h1{
+    color: rgb(63, 62, 62);
+    margin-bottom: 5rem !important;
   }
 }
 
@@ -142,11 +231,7 @@ ul li a {
   font-size: 1.2rem;
 }
 
-.container-two {
-  padding: 5rem 0rem !important;
-  padding-left: 3rem !important;
-  padding-right: 5rem !important;
-}
+
 
 .get-rounded .rounded{
   height: 50px !important;
@@ -155,15 +240,6 @@ ul li a {
   border-radius: 50% !important;
   display: inline-block !important;
   margin-right: 1.5rem !important;
-}
-
-.container-two h1{
-  color: black;
-  margin-bottom: 5rem !important;
-}
-
-h4, p {
-  color: rgb(167, 162, 162) !important;
 }
 
 .exp-color {
@@ -176,51 +252,8 @@ h4, p {
   margin-bottom: 2rem !important;
 }
 
-.container-three {
-  padding: 5rem 0rem !important;
-  padding-left: 3rem !important;
-  padding-right: 5rem !important;
-}
-
-.container-three h1{
-  color: black;
-  margin-bottom: 5rem !important;
-}
-
-.container-four {
-  padding: 5rem 0rem !important;
-  padding-left: 3rem !important;
-  padding-right: 5rem !important;
-}
-
-.container-four h1{
-  color: black;
-  margin-bottom: 5rem !important;
-}
-
-.container-five {
-  padding: 10rem 0rem !important;
-  padding-left: 3rem !important;
-  padding-right: 5rem !important;
-}
-
-.container-five h1{
-  color: black;
-  margin-bottom: 5rem !important;
-}
-
-.container-six {
-  padding: 10rem 0rem !important;
-  padding-left: 3rem !important;
-  padding-right: 5rem !important;
-}
-
-.container-six h1{
-  color: black;
-  margin-bottom: 5rem !important;
-}
-
-.experience ul {
+h2 {
+  color: rgb(63, 62, 62) !important;
 }
 
 .experience ul li{
