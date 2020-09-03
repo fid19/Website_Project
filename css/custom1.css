@@ -60,7 +60,7 @@
   }
 }
 
-@media (min-height: 500px) and (max-width : 900px) {
+@media (min-height: 500px) and (max-width : 1000px) {
   .navstyling {
   margin-top: 0rem !important;
   position: fixed !important;
