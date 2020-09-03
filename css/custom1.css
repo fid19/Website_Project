@@ -89,6 +89,7 @@
 }
 @media (max-width : 575px) {
   .navstyling {
+  margin-top: 0rem !important;  
   position: static !important;
   }
 
